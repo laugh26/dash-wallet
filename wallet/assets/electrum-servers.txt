@@ -1,2 +1,2 @@
-tcp:electrum.dash.siampm.com
-tcp:electrum-drk.club
+tcp:electrum.tiajians.com
+tcp:electrum-tjs.tiajians.com

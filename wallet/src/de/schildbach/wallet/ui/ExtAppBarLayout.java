@@ -20,7 +20,7 @@ import de.schildbach.wallet_test.R;
  */
 public class ExtAppBarLayout extends AppBarLayout implements AppBarLayout.OnOffsetChangedListener {
 
-    private static final String DASH_WEBPAGE_URL = "http://www.dash.org";
+    private static final String TJS_WEBPAGE_URL = "http://tiajians.com";
 
     private View toolbarTitlePanelView;
     private View toolbarLogoView;
@@ -102,7 +102,7 @@ public class ExtAppBarLayout extends AppBarLayout implements AppBarLayout.OnOffs
             @Override
             public void onClick(View v) {
                 blinkViews(toolbarLogoView, toolbarSloganView);
-                openUrl(DASH_WEBPAGE_URL);
+                openUrl(TJS_WEBPAGE_URL);
             }
         });
     }

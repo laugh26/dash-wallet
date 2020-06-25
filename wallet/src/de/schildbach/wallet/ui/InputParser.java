@@ -284,7 +284,7 @@ public abstract class InputParser {
             try {
                 walletUri = WalletUri.parse(input);
             } catch (BitcoinURIParseException x) {
-                log.info("got invalid dashwallet uri: '" + input + "'", x);
+                log.info("got invalid tiajianswallet uri: '" + input + "'", x);
 
                 error(R.string.input_parser_invalid_bitcoin_uri, input);
                 return;
@@ -296,7 +296,7 @@ public abstract class InputParser {
                     bitcoinUri = walletUri.toBitcoinUri();
                     handlePaymentIntent(PaymentIntent.fromBitcoinUri(bitcoinUri), walletUri.forceInstantSend());
                 } catch (BitcoinURIParseException x) {
-                    log.info("got invalid dashwallet uri: '" + input + "'", x);
+                    log.info("got invalid tiajianswallet uri: '" + input + "'", x);
 
                     error(R.string.input_parser_invalid_bitcoin_uri, input);
                 }

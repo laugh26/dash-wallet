@@ -4,7 +4,7 @@
 <b>CARACTERÍSTIQUES</b>
 
 • Sense enregistrar-se ni amb necessitat d'un servei web o al núvol!. Aquesta cartera és descentralitzada i de parell a parell.
-• Mostra l'import de bitcoin en DASH, mDASH i µDASH.
+• Mostra l'import de bitcoin en TJS, mTJS i µTJS.
 • Conversió cap a i des de divises nacionals.
 • Enviar i rebre bitcoins a través d'NFC, codis QR i adreces Bitcoin.
 • Llibreta d'adreces per a les adreces utilitzades regularment.
@@ -16,14 +16,14 @@
 
 <b>COL·LABORAR</b>
 
-La Cartera de Dash és <b>codi obert</b> i <b>programari lliure</b>. Llicència: GPLv3
+La Cartera de Tiajians és <b>codi obert</b> i <b>programari lliure</b>. Llicència: GPLv3
 https://www.gnu.org/licenses/gpl-3.0.ca.html
 
 El nostre codi està disponible a GitHub:
-https://github.com/HashEngineering/darkcoin-wallet
+https://github.com/tiajians/darkcoin-wallet
 
 Totes les traduccions estan gestionades a través de Transifex:
-https://www.transifex.com/dash/dash-wallet/
+https://www.transifex.com/tiajians/tiajians-wallet/
 
 
 <b>TESTIMONIS</b>

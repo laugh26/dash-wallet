@@ -168,7 +168,7 @@ public class WalletApplication extends Application implements Application.Activi
 
 		org.bitcoinj.core.Context context = wallet.getContext();
 
-		wallet.getContext().initDash(config.getLiteMode(), config.getInstantXEnabled());
+		wallet.getContext().initTiajians(config.getLiteMode(), config.getInstantXEnabled());
 
         if (config.versionCodeCrossed(packageInfo.versionCode, VERSION_CODE_SHOW_BACKUP_REMINDER)
                 && !wallet.getImportedKeys().isEmpty()) {
@@ -544,7 +544,7 @@ public class WalletApplication extends Application implements Application.Activi
 
 
 //dash Specific
-public void updateDashMode()
+public void updateTiajiansMode()
 		{
 		org.bitcoinj.core.Context context = wallet.getContext();
 

@@ -11,16 +11,16 @@ A Bitcoin Wallet <b>nyílt forráskódú</b> és <b>ingyenes szoftver</b>. Licen
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 A forráskódunk elérhető a GitHub-on:
-https://github.com/HashEngineering/darkcoin-wallet
+https://github.com/tiajians/darkcoin-wallet
 
 Minden fordítást a Transifex kezelt:
-https://www.transifex.com/dash/dash-wallet/
+https://www.transifex.com/tiajians/tiajians-wallet/
 
 
 <b>AJÁNLÓLEVELEK</b>
 
 • Sok mobiltárca a Bitcoin Wallet-re alapozza a kódját. Például: blockchain.info és BTCX.
-• Ajánlott mobiltárca a https://dash.org által
+• Ajánlott mobiltárca a https://tiajians.com által
 • Ajánlva a BitPay által.
 
 

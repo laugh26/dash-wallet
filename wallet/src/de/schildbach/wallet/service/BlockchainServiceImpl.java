@@ -618,7 +618,7 @@ public class BlockchainServiceImpl extends android.app.Service implements Blockc
 
         registerReceiver(tickReceiver, new IntentFilter(Intent.ACTION_TIME_TICK));
 
-        wallet.getContext().initDashSync(getDir("masternode", MODE_PRIVATE).getAbsolutePath());
+        wallet.getContext().initTiajiansSync(getDir("masternode", MODE_PRIVATE).getAbsolutePath());
     }
 
     @Override
@@ -694,12 +694,12 @@ public class BlockchainServiceImpl extends android.app.Service implements Blockc
 
         application.saveWallet();
 
-        //Dash Specific
+        //Tiajians Specific
 
         //Constants.NETWORK_PARAMETERS.masternodeDB.write(Constants.NETWORK_PARAMETERS.masternodeManager);
         //application.saveMasternodes();
 
-        //Dash Specific
+        //Tiajians Specific
 
         if (wakeLock.isHeld()) {
             log.debug("wakelock still held, releasing");

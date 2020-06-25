@@ -54,7 +54,7 @@ dependencies {
 }
 
 ext {
-     archivesBaseName = 'dash-wallet'
+     archivesBaseName = 'tiajians-wallet'
 }
 
 android {
@@ -105,13 +105,13 @@ android {
     }
     productFlavors {
         beta {
-            applicationId = "hashengineering.dash.wallet.beta"
+            applicationId = "hashengineering.tiajians.wallet.beta"
         }
         prod {
-            applicationId = "hashengineering.darkcoin.wallet"
+            applicationId = "edirin.tiajians.wallet"
         }
         _testNet3 {
-            applicationId = "hashengineering.darkcoin.wallet_test"
+            applicationId = "edirin.tiajians.wallet_test"
         }
     }
     packagingOptions {

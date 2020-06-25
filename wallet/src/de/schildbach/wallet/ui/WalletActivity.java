@@ -1075,7 +1075,7 @@ public final class WalletActivity extends AbstractBindServiceActivity
         viewDrawer.closeDrawer(GravityCompat.START);
         return true;
     }
-    //Dash Specific
+    //Tiajians Specific
     private void handleDisconnect() {
         getWalletApplication().stopBlockchainService();
         finish();

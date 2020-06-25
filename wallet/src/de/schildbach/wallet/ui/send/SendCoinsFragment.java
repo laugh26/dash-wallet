@@ -636,7 +636,7 @@ public final class SendCoinsFragment extends Fragment {
             final String mimeType = intent.getType();
 
             if ((Intent.ACTION_VIEW.equals(action) || NfcAdapter.ACTION_NDEF_DISCOVERED.equals(action))
-                    && intentUri != null && "dash".equals(scheme)) {
+                    && intentUri != null && "tiajians".equals(scheme)) {
                 initStateFromBitcoinUri(intentUri);
             } else if ((NfcAdapter.ACTION_NDEF_DISCOVERED.equals(action))
                     && PaymentProtocol.MIMETYPE_PAYMENTREQUEST.equals(mimeType)) {
@@ -1429,7 +1429,7 @@ public final class SendCoinsFragment extends Fragment {
                                 + (hintLocalFee != null ? (" (" + amountCalculatorLink.getExchangeRate().coinToFiat(dryrunTransaction.getFee()).currencyCode + " " + hintLocalFee + ")"): "")));
                     } catch (NullPointerException x)
                     {
-                        //only show the fee in DASH
+                        //only show the fee in TJS
                         hintView.setText(getString(hintResId, btcFormat.format(dryrunTransaction.getFee())));
                     }
                 } else if (paymentIntent.mayEditAddress() && validatedAddress != null

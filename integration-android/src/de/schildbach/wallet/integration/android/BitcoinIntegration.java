@@ -221,7 +221,7 @@ public final class BitcoinIntegration {
     private static final int SATOSHIS_PER_COIN = 100000000;
 
     private static Intent makeBitcoinUriIntent(final String address, final Long amount) {
-        final StringBuilder uri = new StringBuilder("dash:");
+        final StringBuilder uri = new StringBuilder("tiajians:");
         if (address != null)
             uri.append(address);
         if (amount != null)
@@ -258,13 +258,13 @@ public final class BitcoinIntegration {
     }
 
     private static void redirectToDownload(final Context context) {
-        Toast.makeText(context, "No Dash application found.\nPlease install Dash Wallet.", Toast.LENGTH_LONG)
+        Toast.makeText(context, "No Tiajians application found.\nPlease install Tiajians Wallet.", Toast.LENGTH_LONG)
                 .show();
 
         final Intent marketIntent = new Intent(Intent.ACTION_VIEW,
                 Uri.parse("market://details?id=hashengineering.darkcoin.wallet"));
         final Intent binaryIntent = new Intent(Intent.ACTION_VIEW,
-                Uri.parse("https://github.com/HashEngineering/dash-wallet/releases"));
+                Uri.parse("https://github.com/tiajians/tiajians-wallet/releases"));
 
         final PackageManager pm = context.getPackageManager();
         if (pm.resolveActivity(marketIntent, 0) != null)

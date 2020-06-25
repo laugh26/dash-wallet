@@ -347,7 +347,7 @@ public class TransactionsAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
             extendMessageView = itemView.findViewById(R.id.transaction_row_extend_message);
             messageView = (TextView) itemView.findViewById(R.id.transaction_row_message);
             menuView = (ImageButton) itemView.findViewById(R.id.transaction_row_menu);
-            //Dash
+            //Tiajians
             ixView = itemView.findViewById(R.id.transaction_row_ix);
             ixStatusView = (TextView) itemView.findViewById(R.id.transaction_row_ix_status);
         }

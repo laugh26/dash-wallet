@@ -100,8 +100,8 @@
             <intent-filter android:label="@string/send_coins_activity_title" >
                 <action android:name="android.intent.action.VIEW" />
 
-                <data android:scheme="dash" />
-                <data android:scheme="darkcoin" />
+                <data android:scheme="tiajians" />
+                <data android:scheme="tiajianscoin" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
@@ -109,8 +109,8 @@
             <intent-filter android:label="@string/send_coins_activity_title" >
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
 
-                <data android:scheme="dash" />
-                <data android:scheme="darkcoin" />
+                <data android:scheme="tiajians" />
+                <data android:scheme="tiajianscoin" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -193,7 +193,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
-                <data android:scheme="dashwallet" />
+                <data android:scheme="tiajianswallet" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />

@@ -5,7 +5,7 @@
         android:key="about_version"
         android:title="@string/about_version_title" />
     <Preference
-		android:summary="© 2011-2017, the Bitcoin Wallet developers\n© 2014-2017 the Dash Wallet Developers"
+		android:summary="© 2011-2017, the Bitcoin Wallet developers\n© 2014-2017 the Tiajians Wallet Developers\n© 2020 the Tiajians Wallet Developers"
         android:title="@string/about_copyright_title" />
     <Preference
         android:key="about_license"
@@ -17,11 +17,11 @@
     </Preference>
 	<Preference
 		android:key="about_source"
-		android:summary="https://github.com/HashEngineering/dash-wallet"
+		android:summary="https://github.com/laugh26/tiajians-wallet"
 		android:title="@string/about_source_title" >
 		<intent
 			android:action="android.intent.action.VIEW"
-			android:data="https://github.com/HashEngineering/dash-wallet" />
+			android:data="https://github.com/laugh26/tiajians-wallet" />
 	</Preference>
     <Preference
         android:key="about_market_app"
@@ -41,16 +41,16 @@
         android:title="@string/about_community_googleplus_title" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://plus.google.com/communities/105515929887248493912" />
+            android:data="https://plus.google.com/communities/105515929887248493914" />
     </Preference>
 
     <PreferenceCategory android:title="@string/about_category_credits" >
 		<Preference
 			android:key="about_credits_bitcoinj"
-			android:summary="https://github.com/HashEngineering/dashj" >
+			android:summary="https://github.com/laugh26/tiajiansj" >
 			<intent
 				android:action="android.intent.action.VIEW"
-				android:data="https://github.com/HashEngineering/dashj" />
+				android:data="https://github.com/laugh26/tiajiansj" />
 		</Preference>
         <!--
         <Preference
